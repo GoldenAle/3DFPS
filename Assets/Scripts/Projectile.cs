@@ -22,7 +22,6 @@ public class Projectile : MonoBehaviour
     [SerializeField] protected float detonationLifetime = -1f;
     protected float lifetime = 0f;
 
-
     protected void Start()
     {
         projectileObject.SetActive(true);

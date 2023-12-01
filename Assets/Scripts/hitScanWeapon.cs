@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class HitScanWeapon : Weapon
 {
-    public ParticleSystem hitParticle;
+    [SerializeField] ParticleSystem hitParticle;
 
     private new void Start()
     {

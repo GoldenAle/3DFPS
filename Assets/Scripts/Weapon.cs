@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public WeaponState WeaponType = WeaponState.Total;
-    public int ammunition = 0;
+    [SerializeField] WeaponState WeaponType = WeaponState.Total;
+    [SerializeField] int ammunition = 0;
     public LayerMask hitMask = 0;
     public float weaponRange = 100.0f;
 
