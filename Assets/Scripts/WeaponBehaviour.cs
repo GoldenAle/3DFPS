@@ -12,9 +12,9 @@ public enum WeaponState
 
 public class WeaponBehaviour : MonoBehaviour
 {
-    [Header("Unarmed = Element 0 \n" + 
+    /*[Header("Unarmed = Element 0 \n" + 
         "Hitscan = Element 1 \n" + 
-        "Projectile = Element 2")]
+        "Projectile = Element 2")]*/
     public Weapon[] AvailableWeapons = new Weapon[(int)WeaponState.Total];
     public Weapon currentWeapon = null;
     public float scrollWheelBreakpoint = 1f;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.3930446, g: 0.40904823, b: 0.40170267, a: 1}
+  m_IndirectSpecularColor: {r: 0.39266112, g: 0.40849155, b: 0.40083164, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1810,9 +1810,49 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.063
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.338
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.246
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860938790004680992, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3904912861111135899, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484883116279631108, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484883116279631108, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5157961616600576718, guid: 000ba9c2690a3f3479a56d065cac519f, type: 3}
       propertyPath: m_Layer
